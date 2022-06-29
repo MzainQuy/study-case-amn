@@ -101,3 +101,36 @@ input {
     font-weight: bold;
     background: #ff0000;
 }
+
+.button-next {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-next a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.button-next button {
+    border: none;
+    background: rgb(156, 186, 227);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.4s ease-in;
+    margin-right: 10px;
+}
+
+.button-next button:hover {
+    background: rgb(85, 99, 119);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #ffffff;
+}
